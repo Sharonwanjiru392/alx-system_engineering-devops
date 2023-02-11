@@ -10,4 +10,4 @@
 #10-mirrror_permissions This script set the mode of the file hello the same as olleh's mode
 #11-directories_permissions This script adds execute permission to subdirectories of the current directory for group owner and others
 #11-directory_permissions the script add current directory to the owner of the group and other user
-#
+#100-change_owner_and_group This script changes the owner to the vincent and the group owner to staff of all working directory
