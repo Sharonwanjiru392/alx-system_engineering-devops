@@ -1,2 +1,2 @@
-egrep ^[[:alpha:]]
-/etc/ssh/sshd_config
+#!/bin/bah
+/etcii/ssh/sshd_config
