@@ -1,2 +1,2 @@
-#!/bin/bah
-/etcii/ssh/sshd_config
+#!/bin/bash
+grep -I '* [a-z]' /etc/ssh/sshd_config
