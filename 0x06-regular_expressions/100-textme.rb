@@ -1,5 +1,2 @@
-#!/usr/bin/env bash
-# Kills the process 7-highlander.
-
-pkill -f -SIGKILL 7-highlander
-
+#!/usr/bin/env ruby
+#puts ARGV[0].scan(/(?<=from:|to:|flags:)[^\]]*/).join(',')
