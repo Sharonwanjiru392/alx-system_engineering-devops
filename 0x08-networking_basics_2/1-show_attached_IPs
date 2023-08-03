@@ -1,0 +1,2 @@
+how attached IPs
+ifconfig | grep "inet " | tr ":" " " | awk '{print $3}'
