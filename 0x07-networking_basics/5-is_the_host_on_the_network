@@ -4,7 +4,7 @@
 
 if [ "$1" ] 
 then
-       echo "usage: 5-ig-the_host_on_the_network{IP_ADDRESS}"
+	 ping -e 5 "$1"
 else
- ping -e 5 "$1"
+	echo "usage: 5-ig-the_host_on_the_network{IP_ADDRESS}"
 fi 
