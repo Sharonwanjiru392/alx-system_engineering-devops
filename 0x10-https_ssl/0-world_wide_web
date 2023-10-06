@@ -5,12 +5,11 @@ prints () {
 }
 if [ $# -eq 1 ];
 then
-    Domain_information "$1" "www"
-    Domain_information "$1" "lb-01"
-    Domain_information "$1" "web-01"
-    Domain_information "$1" "web-02"
+    prints "www.$1" "www"
+    prints "lb-01.$1" "lb-01"
+    prints "web-01.$1" "web-01"
+    prints "web-02.$1" "web-02"
 elif [ $# -eq 2 ];
 then
      prints "$2.$1" "$2"
 fi
-
