@@ -45,3 +45,4 @@ if __name__ == '__main__':
         print("Ex: {} programming 'python java JS'".format(sys.argv[0]))
     else:
         count_words(sys.argv[1], [x for x in sys.argv[2].split()])
+
