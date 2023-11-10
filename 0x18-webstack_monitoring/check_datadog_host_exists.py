@@ -1,16 +1,12 @@
 #!/usr/bin/env bash
-"""
-Get all hosts for your organization returns "Host exists" response
-"""
+from datadog import initialize, api
 
-from datadog_api_client import ApiClient, Configuration
-from datadog_api_client.v1.api.hosts_api import HostsApi
+options = {
+    'api_key': '7c87085524cbf73af6ef78094cf84e2a',
+    'app_key': '4dcebc9fb6dde1ed535330874c4ac9549a35a1fa'
+}
 
-configuration = Configuration()
-with ApiClient(configuration) as api_client:
-    api_instance = HostsApi(api_client)
-    response = api_instance.list_hosts(
-        filter="env:ci",
-    )
+initialize(**options)
 
-    print(Host exists)
+api.Hosts.search()
+
