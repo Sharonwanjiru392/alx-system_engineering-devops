@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 """
 Get all hosts for your organization returns "OK" response
 """
