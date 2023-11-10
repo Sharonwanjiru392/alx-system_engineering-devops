@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 """
-Get all hosts for your organization returns "OK" response
+Get all hosts for your organization returns "Host exists" response
 """
 
 from datadog_api_client import ApiClient, Configuration
@@ -13,4 +13,4 @@ with ApiClient(configuration) as api_client:
         filter="env:ci",
     )
 
-    print(response)
+    print(Host exists)
